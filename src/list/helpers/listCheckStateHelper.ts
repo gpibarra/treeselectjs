@@ -13,7 +13,7 @@ export const updateOptionsByValue = (
   if (isSingleSelect && !!optionsToCheck.length) {
     optionsToCheck[0].checked = true
 
-    return
+    // return
   }
 
   optionsToCheck.forEach((option) => {
